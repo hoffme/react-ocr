@@ -1,0 +1,40 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    --primary-color: #009fe1;
+    --secondary-color: #0066cb;
+  
+    --background-text-primary-color: #009fe1;
+    --background-text-secondary-color: #313131;
+    --background-text-tertiary-color: #999;
+    --background-color: #313131;
+  
+    --surface-highlight-text-primary-color: #eee;
+    --surface-highlight-text-secondary-color: #212121;
+    --surface-highlight-text-tertiary-color: #666666;
+    --surface-highlight-background-color: #009fe1;
+    --surface-highlight-shadow-color: #333;
+    --surface-highlight-border-color: #414141;
+  
+    --surface-text-primary-color: #009fe1;
+    --surface-text-secondary-color: #313131;
+    --surface-text-tertiary-color: #666666;
+    --surface-background-color: #eee;
+    --surface-shadow-color: #333;
+    --surface-border-color: #414141;
+}
+
+#root {
+    background-color: var(--background-color);
+}
+
+> * { box-sizing: border-box }

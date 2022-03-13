@@ -1,0 +1,19 @@
+.container {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--surface-highlight-background-color);
+    box-shadow: 1px 1px 3px var(--surface-highlight-shadow-color);
+    color: var(--surface-highlight-text-primary-color);
+    font-weight: bold;
+    padding: 0.5rem;
+    font-size: 1.25em;
+  }
+}
